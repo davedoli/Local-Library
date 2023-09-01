@@ -1,12 +1,8 @@
 from django.db import models
-
 # Create your models here.
-
 from django.urls import reverse  # To generate URLS by reversing URL patterns
-
 import uuid  # Required for unique book instances
 from datetime import date
-
 from django.contrib.auth.models import User  # Required to assign User as a borrower
 
 class Genre(models.Model):
